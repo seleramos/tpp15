@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cambiar Color de Botones</title>
+</head>
+<body>
+    <h1>Cambiar Color de Botones</h1>
+    
+    <!-- Botones -->
+    <button id="botonVerde" onclick="cambiarColor(this, 'green')">Verde</button>
+    <button id="botonRojo" onclick="cambiarColor(this, 'red')">Rojo</button>
+    <button id="botonAzul" onclick="cambiarColor(this, 'blue')">Azul</button>
+
+    <script>
+        function cambiarColor(boton, color) {
+            // Cambia el color del botón
+            boton.style.backgroundColor = color;
+        }
+    </script>
+</body>
+</html>
